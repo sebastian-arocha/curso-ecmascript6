@@ -22,3 +22,11 @@
   _Spread Operator (Operador de Propagación)_: Este nos permite expandir varios elementos de acuerdo a la situación. Por ejemplo, cuando queríamos agregar elementos de un array a un nuevo array antes de ES6 agregabamos cada elemento manualmente. Ahora, gracias operador de propagación (...) llamamos al array que queremos agregar dentro de nuestro nuevo array y listo, ya todos los elementos que queríamos están dentro, de una manera fácil.
 
   _Let y Const_: La forma de declarar variables antes de ECMAScript6 era con la palabra reservada var. Con la llegada de ECMAScript6 se añadieron las palabras reservadas let y const, que son una nueva mejor forma de declarar las variables ya que evitan muchos errores como el Hoisting. Estas, tienen sus propias características como que let puede cambiar el valor durante nuestra aplicación y const no, ya que es una variable constante.
+
+- **3: Arrow Functions, Promesas y Parámetros en objetos**
+
+  _Objetos Mejorados_: Cuando queríamos asignarle a un nuevo objeto el valor de una variable como propiedad del objeto, lo hacíamos de la siguiente manera "propiedad: nombreVariable". Ahora desde ES6, simplemente cuando declaramos el objeto, colocamos el nombre de la variable como la propiedad, por lo tanto la propiedad recibirá como valor el valor de la variable.
+
+  _Arrow Functions_: Las funciones de tipo flecha tienen una sintaxis más reducida y nos permite una escritura más amigable. Al declarar una función antes de ECMAScript6, debíamos utilizar una sintaxis más larga en el bloque dentro de la función, y teníamos la necesidad, en ciertos casos de utilizar la palabra reservada return. Con las funciones flecha nos ahorramos todas estas particularidades y mejoramos muchísimo la sintaxis.
+
+  _Promesas_: Las promesas hacen parte del asincronismo en JavaScript, esto significa que una función se ejecutará si algo ocurre, y dependiendo de la validación (si algo es verdadero o falso) dará un resultado.

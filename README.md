@@ -1,6 +1,6 @@
 # Curso de ECMAScript 6+
 
-# Módulo 1: ¿Qué se implementó en ECMAScript 6?
+# Módulo 1: ¿Qué se implementó en ECMAScript 6? (ES 2015)
 
 - **¿Qué es ECMAScript?**
 
@@ -38,3 +38,11 @@
   _Módulos_: Una de las características que añadieron en ES6 fueron la de importar y exportar, es decir, trabajar con módulos, los módulos nos permiten usar códigos de un archivo en otro archivo, para hacer el código de un archivo exportable utilizamos el siguiente ejemplo. Esto nos sirve ya que vamos a poder separar en módulos las lógicas diferentes de nuestro proyecto (por ejemplo una lógica que se encargue de hacer una petición a una API, una que haga una operación matemática) en diferentes archivos y poder llamar esas funciones o variables a nuestro archivo principal.
 
   _Generadores_: Generator es una función especial que retorna una serie de valores según el algoritmo definido. Para definir una función generadora colocamos un asterisco \* al lado de nuestra palabra reservada function. Los generadores nos permiten hacer iterables nuestras funciones para que por cada llamada, muestre un resultado diferente.
+
+# Módulo 2: ¿Qué se implementó en ECMAScript 7? (ES 2016)
+
+- **1: Método .includes y Operaciones de Potenciación**
+
+  _Método includes_: Con el método .includes podemos validar si en un array se encuentra cierto elemento. A este método le podemos pasar dos parámetros (searchElement: element, fromIndex: indexnumber) que básicamente el primer parámetro que le pasemos es el elemento que queremos encontrar y el segundo (que es opcional) es desde que posición del array lo vamos a empezar a buscar. Ejemplo: ("Sebastián", 20) Buscamos al string Sebastian desde la posición número 20 del array.
+
+  _Operaciones de potenciación_: En EcmaScript 7 se añadió la posibilidad de hacer operaciones de potenciación utilizando el operador de potencia (doble asterisco).

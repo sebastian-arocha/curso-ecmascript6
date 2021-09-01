@@ -30,3 +30,11 @@
   _Arrow Functions_: Las funciones de tipo flecha tienen una sintaxis más reducida y nos permite una escritura más amigable. Al declarar una función antes de ECMAScript6, debíamos utilizar una sintaxis más larga en el bloque dentro de la función, y teníamos la necesidad, en ciertos casos de utilizar la palabra reservada return. Con las funciones flecha nos ahorramos todas estas particularidades y mejoramos muchísimo la sintaxis.
 
   _Promesas_: Las promesas hacen parte del asincronismo en JavaScript, esto significa que una función se ejecutará si algo ocurre, y dependiendo de la validación (si algo es verdadero o falso) dará un resultado.
+
+- **4: Clases, Módulos y Generadores**
+
+  _Clases_: Las clases son una forma de manejar objetos y la herencia. Estas clases siempre inician con un método constructor que crea una plantilla con ciertas propiedades dinámicas que podemos agregar llamando una nueva instancia de la clase. Una clase, es muy parecida a una función constructora, y prácticamente cada instancia de la clase se guarda en un objeto diferente con las propiedades que asignamos y esto nos permite reutilizar el código sin tener que crear uno para cada clase. Otra ventaja que tenemos en las clases es que podemos agregar métodos (que son funciones) que darán ciertas funcionalidades a cada instancia que creemos de la clase.
+
+  _Módulos_: Una de las características que añadieron en ES6 fueron la de importar y exportar, es decir, trabajar con módulos, los módulos nos permiten usar códigos de un archivo en otro archivo, para hacer el código de un archivo exportable utilizamos el siguiente ejemplo. Esto nos sirve ya que vamos a poder separar en módulos las lógicas diferentes de nuestro proyecto (por ejemplo una lógica que se encargue de hacer una petición a una API, una que haga una operación matemática) en diferentes archivos y poder llamar esas funciones o variables a nuestro archivo principal.
+
+  _Generadores_: Generator es una función especial que retorna una serie de valores según el algoritmo definido. Para definir una función generadora colocamos un asterisco \* al lado de nuestra palabra reservada function. Los generadores nos permiten hacer iterables nuestras funciones para que por cada llamada, muestre un resultado diferente.

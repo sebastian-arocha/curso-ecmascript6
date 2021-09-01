@@ -46,3 +46,15 @@
   _Método includes_: Con el método .includes podemos validar si en un array se encuentra cierto elemento. A este método le podemos pasar dos parámetros (searchElement: element, fromIndex: indexnumber) que básicamente el primer parámetro que le pasemos es el elemento que queremos encontrar y el segundo (que es opcional) es desde que posición del array lo vamos a empezar a buscar. Ejemplo: ("Sebastián", 20) Buscamos al string Sebastian desde la posición número 20 del array.
 
   _Operaciones de potenciación_: En EcmaScript 7 se añadió la posibilidad de hacer operaciones de potenciación utilizando el operador de potencia (doble asterisco).
+
+# Módulo 3: ¿Qué se implementó en ECMAScript 8? (ES 2017)
+
+- **1: Object.entries(), Object.values(), Padding y Trailing Commas**
+
+  _Object.entries()_: El método Object.entries() devuelve en una matriz las propiedades y los valores de un objeto. Es decir, el valor que retorna esta función son cada propiedad con su valor de un objeto en un array.
+
+  _Object.values()_: El método Object.values() devuelve un array donde los elementos de este array son los valores de las propiedades según el orden en el que se encuentren en el objeto que creemos. Esto nos sirve cuando queremos saber cuales son los valores de un objeto sin su propiedad.
+
+  _Padding_: Esta funcionalidad nos permite añadirle a un string cadenas vacías, caracteres, o completar con una cadena de texto el string que estemos trabajando. Esto nos sirve cuando queremos aplicar ciertas estructuras en nuestros textos en el lado del frontend. Los métodos .padStart() y .padEnd() reciben dos parámetros los cuales son (maximoDeCaracteres: num de caracteres, completarString: string) el máximo de carácteres significa de cuanto va a ser la longitud de nuestro string, y el string que le pasemos para completar rellenará los caracteres que sean necesarios. El método .padStart completa el string desde el comienzo (izquierda) hasta la cadena actual. El método .padEnd completa el string desde el final de la cadena actual (derecha) hasta el final del string.
+
+  _Trailing Commas_: Cuando añadimos una coma al final de elemento de un objeto, evitamos que ocurran errores de sintaxis al querer agregar otro elemento.

@@ -58,3 +58,35 @@
   _Padding_: Esta funcionalidad nos permite añadirle a un string cadenas vacías, caracteres, o completar con una cadena de texto el string que estemos trabajando. Esto nos sirve cuando queremos aplicar ciertas estructuras en nuestros textos en el lado del frontend. Los métodos .padStart() y .padEnd() reciben dos parámetros los cuales son (maximoDeCaracteres: num de caracteres, completarString: string) el máximo de carácteres significa de cuanto va a ser la longitud de nuestro string, y el string que le pasemos para completar rellenará los caracteres que sean necesarios. El método .padStart completa el string desde el comienzo (izquierda) hasta la cadena actual. El método .padEnd completa el string desde el final de la cadena actual (derecha) hasta el final del string.
 
   _Trailing Commas_: Cuando añadimos una coma al final de elemento de un objeto, evitamos que ocurran errores de sintaxis al querer agregar otro elemento.
+
+- **2: Async y Await**
+
+  Usar async y await en las promesas es una de las mejores funcionalidades que se añadieron en ES8. La función async declara una función asíncrona que retorna como valor una promesa, este tipo de funciones async pueden tener una expresión await, que pone en espera la ejecución de la función async mientras la promesa se resuelve, luego de que se devuelve el valor de la promesa reanuda la ejecución del async y el valor resuelto.
+
+# Módulo 4: ¿Qué se implementó en ECMAScript 9? (ES 2018)
+
+- **1: Operador de reposo, Propiedades de propagación, Promise.finally(), Regex**
+
+  _Operador de reposo_: Este operador nos permite sacar ciertas propiedades de un objeto y dejar todas las demás alojadas en una variable sin desestructurar todo el objeto.
+
+  _Propiedades de propagación_: Usando el operador de propagación y colocandole el nombre del objeto, podemos asignar todo el contenido del objeto (sus propiedades y valores) dentro de un nuevo objeto con diferentes propiedades sin afectar al objeto original y sin asignar nuevamente cada propiedad.
+
+  _Promise.finally()_: Esta nueva funcionalidad nos permite saber en qué momento termina nuestra promesa y poder ejecutar una función al momento que termina.
+
+  _Regex_: Esta nueva característica nos permite trabajar con los Regex y asignar grupos los cuales podremos acceder mediante destructurando el resultado del match y llamando cada elemento. Podemos hacerlo mediante su posición o llamandolo por cada propiedad. Esto nos permite trabajar mejor con un grupo de elementos, asignarle su tamaño de caracteres, el tipo de elementos y encontrarlo por grupos.
+
+# Módulo 4: ¿Qué se implemenetó en ECMAScript 10? (ES 2019)
+
+- **1: Método .flat(), .flatMap(), .trimStart() y .trimEnd(), Optional Catch Binding, Object.fromEntries(), Symbol Objects**
+
+  _Método .flat()_: El método .flat() crea una nueva matriz con todos los elementos de una matriz, incluyendo las submatrices. Lo que hace es aplanar estas submatrices dependiendo de la profundidad en la que se encuentren, veamos un ejemplo. Aplanar es sacar esas submatrices a la matriz principal.
+
+  _Método .flatMap()_: El método array.flatMap() primero mapea cada elemento del array y puede manipular estos, luego los devuelve en una matriz con todos estos elementos aplanados.
+
+  _Método .trimStart() y .trimEnd()_: El método .trimStart() elimina los espacios sobrantes de un string desde el inicio (izquierda). El método .trimEnd() elimina los espacios sobrantes desde el final (derecha)
+
+  _Optional Catch Binding_: Antes, en la antigua sintaxis cuando queríamos trabajar con try y catch debíamos pasarle el argumento (error) a catch para que pudiera funcionar, ahora podemos ahorrarnos eso incluyendo el argumento directamente en el bloque de código.
+
+  _Object.fromEntries()_: Este método nos permite convertir un array con matrices que incluyan la propiedad y el valor (como si fuera un objeto) y convertir toda esa matriz en un objeto. Es decir, esta propiedad hace lo inverso que el Object.entries() que convierte un objeto en una matriz con matrices diferentes para cada propiedad con su valor.
+
+  _Symbol.prototype.description_: Esta nueva función nos permite acceder a la descripción de los objetos de tipo símbolo.

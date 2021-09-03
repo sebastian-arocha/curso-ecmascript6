@@ -39,6 +39,8 @@
 
   _Generadores_: Generator es una función especial que retorna una serie de valores según el algoritmo definido. Para definir una función generadora colocamos un asterisco \* al lado de nuestra palabra reservada function. Los generadores nos permiten hacer iterables nuestras funciones para que por cada llamada, muestre un resultado diferente.
 
+##
+
 # Módulo 2: ¿Qué se implementó en ECMAScript 7? (ES 2016)
 
 - **1: Método .includes y Operaciones de Potenciación**
@@ -46,6 +48,8 @@
   _Método includes_: Con el método .includes podemos validar si en un array se encuentra cierto elemento. A este método le podemos pasar dos parámetros (searchElement: element, fromIndex: indexnumber) que básicamente el primer parámetro que le pasemos es el elemento que queremos encontrar y el segundo (que es opcional) es desde que posición del array lo vamos a empezar a buscar. Ejemplo: ("Sebastián", 20) Buscamos al string Sebastian desde la posición número 20 del array.
 
   _Operaciones de potenciación_: En EcmaScript 7 se añadió la posibilidad de hacer operaciones de potenciación utilizando el operador de potencia (doble asterisco).
+
+##
 
 # Módulo 3: ¿Qué se implementó en ECMAScript 8? (ES 2017)
 
@@ -63,6 +67,8 @@
 
   Usar async y await en las promesas es una de las mejores funcionalidades que se añadieron en ES8. La función async declara una función asíncrona que retorna como valor una promesa, este tipo de funciones async pueden tener una expresión await, que pone en espera la ejecución de la función async mientras la promesa se resuelve, luego de que se devuelve el valor de la promesa reanuda la ejecución del async y el valor resuelto.
 
+##
+
 # Módulo 4: ¿Qué se implementó en ECMAScript 9? (ES 2018)
 
 - **1: Operador de reposo, Propiedades de propagación, Promise.finally(), Regex**
@@ -75,7 +81,9 @@
 
   _Regex_: Esta nueva característica nos permite trabajar con los Regex y asignar grupos los cuales podremos acceder mediante destructurando el resultado del match y llamando cada elemento. Podemos hacerlo mediante su posición o llamandolo por cada propiedad. Esto nos permite trabajar mejor con un grupo de elementos, asignarle su tamaño de caracteres, el tipo de elementos y encontrarlo por grupos.
 
-# Módulo 4: ¿Qué se implemenetó en ECMAScript 10? (ES 2019)
+##
+
+# Módulo 5: ¿Qué se implementó en ECMAScript 10? (ES 2019)
 
 - **1: Método .flat(), .flatMap(), .trimStart() y .trimEnd(), Optional Catch Binding, Object.fromEntries(), Symbol Objects**
 
